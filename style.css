@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #0b132b; /* Azul escuro para combinar com a logo */
+    color: #ffffff;
+}
+
+header {
+    background: #ffffff; /* Fundo branco no header para a logo não sumir */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #1c2541;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    width: 480px;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1c2541 0%, #0b132b 100%);
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #5bc0be; /* Tom de ciano da logo */
+}
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: #1c2541;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 4px solid #5bc0be;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #5bc0be;
+}
+
+.card p {
+    color: #d1d1d1;
+    font-size: 0.95rem;
+}
+
+.cta-button {
+    display: block;
+    margin: 50px auto;
+    padding: 18px 40px;
+    background: #5bc0be;
+    color: #0b132b;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #ffffff;
+}
+
+footer {
+    background: #0b0f1a;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #1c2541;
+}
+
+.footer-details p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #a0a0a0;
+}
+
+.compliance-text {
+    margin-top: 20px;
+    font-size: 0.75rem;
+    color: #666;
+}
