@@ -24,7 +24,8 @@ header {
 }
 
 .main-logo {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     height: auto;
     display: block;
 }
