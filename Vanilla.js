@@ -14,7 +14,7 @@ function calcularSimulacao() {
 
     document.getElementById('resultado').innerHTML = `
         <div style="background-color: #f0f4f8; padding: 15px; border-radius: 8px; border-left: 5px solid #003366;">
-            <h3 style="color: #003366;">Simulação Ilha Tech:</h3>
+            <h3 style="color: #003366;">Simulação AM Finanças:</h3>
             <p>Crédito Estimado: <strong>R$ ${valorSolicitado.toFixed(2)}</strong></p>
             <p>Valor das Parcelas: <strong>${parcelas}x de R$ ${valorParcela.toFixed(2)}</strong></p>
             <small>*Sujeito a análise de margem e convênio.</small>
