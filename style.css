@@ -99,6 +99,7 @@ footer {
     padding: 40px 20px;
     text-align: center;
     border-top: 1px solid #1c2541;
+    
 }
 
 .footer-details p {
@@ -112,3 +113,24 @@ footer {
     font-size: 0.75rem;
     color: #666;
 }
+.Aviso {
+   font-size: 17px;
+   text-align: center;
+
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+}
+
+.logo-img {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
