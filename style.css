@@ -133,4 +133,21 @@ footer {
   margin: 0 auto;
 }
 
+  .topbar {
+    background-color: #0b132b; /* Tom escuro alinhado com seu site */
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .topbar .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 180%;
+  }
+
+
 
